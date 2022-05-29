@@ -47,6 +47,7 @@ export default {
 .container {
   margin-left: 1000px;
   font: 14px Arial;
+  padding-bottom: 165px;
 }
 
 .container-child1 {

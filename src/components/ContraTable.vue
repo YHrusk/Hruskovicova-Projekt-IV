@@ -1,7 +1,7 @@
 <template>
   <table class="con">
     <tr>
-      <td style="width: 105px">Kontrakce</td>
+      <td class="con-title">Kontrakce</td>
 
         <Contraction/>
         <Contraction/>
@@ -34,16 +34,11 @@ export default {
   font: 14px Arial;
 }
 
-.con th,
-.con td {
+.con-title{
   border: 1px solid black;
+  width: 105px;
   padding: 10px;
   text-align: left;
-}
-
-.con td {
-  border: 1px solid black;
-  vertical-align:middle;
   border-top: 0px;
 }
 </style>

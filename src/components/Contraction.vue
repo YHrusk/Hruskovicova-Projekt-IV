@@ -1,124 +1,13 @@
 <template>
-      <td class="con-cell">
-        <select class="con-select">
-          <option value=""></option>
-          <option value="1">1'</option>
-          <option value="2">2'</option>
-          <option value="3">3'</option>
-          <option value="4">4'</option>
-          <option value="5">5'</option>
-          <option value="6">6'</option>
-          <option value="7">7'</option>
-          <option value="8">8'</option>
-          <option value="9">9'</option>
-          <option value="10">10'</option>
-        </select>
-      </td>
-      <td class="con-cell">
-        <select class="con-select">
-          <option value=""></option>
-          <option value="1">1'</option>
-          <option value="2">2'</option>
-          <option value="3">3'</option>
-          <option value="4">4'</option>
-          <option value="5">5'</option>
-          <option value="6">6'</option>
-          <option value="7">7'</option>
-          <option value="8">8'</option>
-          <option value="9">9'</option>
-          <option value="10">10'</option>
-        </select>
-      </td>
-      <td class="con-cell">
-        <select class="con-select">
-          <option value=""></option>
-          <option value="1">1'</option>
-          <option value="2">2'</option>
-          <option value="3">3'</option>
-          <option value="4">4'</option>
-          <option value="5">5'</option>
-          <option value="6">6'</option>
-          <option value="7">7'</option>
-          <option value="8">8'</option>
-          <option value="9">9'</option>
-          <option value="10">10'</option>
-        </select>
-      </td>
-      <td class="con-cell">
-        <select class="con-select">
-          <option value=""></option>
-          <option value="1">1'</option>
-          <option value="2">2'</option>
-          <option value="3">3'</option>
-          <option value="4">4'</option>
-          <option value="5">5'</option>
-          <option value="6">6'</option>
-          <option value="7">7'</option>
-          <option value="8">8'</option>
-          <option value="9">9'</option>
-          <option value="10">10'</option>
-        </select>
-      </td>
-      <td class="con-cell">
-        <select class="con-select">
-          <option value=""></option>
-          <option value="1">1'</option>
-          <option value="2">2'</option>
-          <option value="3">3'</option>
-          <option value="4">4'</option>
-          <option value="5">5'</option>
-          <option value="6">6'</option>
-          <option value="7">7'</option>
-          <option value="8">8'</option>
-          <option value="9">9'</option>
-          <option value="10">10'</option>
-        </select>
-      </td>
-      <td class="con-cell">
-        <select class="con-select">
-          <option value=""></option>
-          <option value="1">1'</option>
-          <option value="2">2'</option>
-          <option value="3">3'</option>
-          <option value="4">4'</option>
-          <option value="5">5'</option>
-          <option value="6">6'</option>
-          <option value="7">7'</option>
-          <option value="8">8'</option>
-          <option value="9">9'</option>
-          <option value="10">10'</option>
-        </select>
-      </td>
-      <td class="con-cell">
-        <select class="con-select">
-          <option value=""></option>
-          <option value="1">1'</option>
-          <option value="2">2'</option>
-          <option value="3">3'</option>
-          <option value="4">4'</option>
-          <option value="5">5'</option>
-          <option value="6">6'</option>
-          <option value="7">7'</option>
-          <option value="8">8'</option>
-          <option value="9">9'</option>
-          <option value="10">10'</option>
-        </select>
-      </td>
-      <td class="con-cell">
-        <select class="con-select">
-          <option value=""></option>
-          <option value="1">1'</option>
-          <option value="2">2'</option>
-          <option value="3">3'</option>
-          <option value="4">4'</option>
-          <option value="5">5'</option>
-          <option value="6">6'</option>
-          <option value="7">7'</option>
-          <option value="8">8'</option>
-          <option value="9">9'</option>
-          <option value="10">10'</option>
-        </select>
-      </td>
+      <td class="con-cell"><div class="left"><input class="con-input" type="text" maxlength="2"/></div>'</td>
+      <td class="con-cell"><div class="left"><input class="con-input" type="text" maxlength="2"/></div>'</td>
+      <td class="con-cell"><div class="left"><input class="con-input" type="text" maxlength="2"/></div>'</td>
+      <td class="con-cell"><div class="left"><input class="con-input" type="text" maxlength="2"/></div>'</td>
+
+      <td class="con-cell"><div class="left"><input class="con-input" type="text" maxlength="2"/></div>'</td>
+      <td class="con-cell"><div class="left"><input class="con-input" type="text" maxlength="2"/></div>'</td>
+      <td class="con-cell"><div class="left"><input class="con-input" type="text" maxlength="2"/></div>'</td>
+      <td class="con-cell"><div class="left"><input class="con-input" type="text" maxlength="2"/></div>'</td>
 </template>
 
 <script>
@@ -131,12 +20,17 @@ export default {
 .con-cell {
   border: 1px solid black;
   border-top: 0px;
-  display:inline-block;
-  vertical-align:middle;
-  width: (50/4)px;
+  overflow: hidden;
+  width: (105/4)px;
+  text-align: right;
 }
 
-.con-select {
-  width: 33px;
+.con-input {
+  display: block;
+  width: 15px;
+}
+
+.left{
+  float: left;
 }
 </style>

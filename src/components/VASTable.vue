@@ -1,7 +1,7 @@
 <template>
   <table class="vas">
     <tr>
-      <td style="width: 105px">VAS</td>
+      <td class="vas-title">VAS</td>
 
       <VASComp/>
       <VASComp/>
@@ -34,20 +34,11 @@ export default {
   font: 14px Arial;
 }
 
-.vas tr,
-.vas td {
+.vas-title{
   border: 1px solid black;
+  width: 105px;
   padding: 10px;
   text-align: left;
-}
-
-.vas td {
-  border: 1px solid black;
-  vertical-align:middle;
   border-top: 0px;
 }
-
-/* .vas-select {
-    width: (50/4)px;
-} */
 </style>

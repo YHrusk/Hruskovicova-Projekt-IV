@@ -1,4 +1,4 @@
-# Porodni křivka
+# Porodní křivka
 
 ## To start a development server:
 If you use Yarn:

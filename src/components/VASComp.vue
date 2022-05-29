@@ -1,132 +1,13 @@
 <template>
-      <td class="vas-cell">
-        <select class="vas-select">
-          <option value=""></option>
-          <option value="0">0</option>
-          <option value="1">1</option>
-          <option value="2">2</option>
-          <option value="3">3</option>
-          <option value="4">4</option>
-          <option value="5">5</option>
-          <option value="6">6</option>
-          <option value="7">7</option>
-          <option value="8">8</option>
-          <option value="9">9</option>
-          <option value="10">10</option>
-        </select>
-      </td>
-      <td class="vas-cell">
-        <select class="vas-select">
-          <option value=""></option>
-          <option value="0">0</option>
-          <option value="1">1</option>
-          <option value="2">2</option>
-          <option value="3">3</option>
-          <option value="4">4</option>
-          <option value="5">5</option>
-          <option value="6">6</option>
-          <option value="7">7</option>
-          <option value="8">8</option>
-          <option value="9">9</option>
-          <option value="10">10</option>
-        </select>
-      </td>
-      <td class="vas-cell">
-        <select class="vas-select">
-          <option value=""></option>
-          <option value="0">0</option>
-          <option value="1">1</option>
-          <option value="2">2</option>
-          <option value="3">3</option>
-          <option value="4">4</option>
-          <option value="5">5</option>
-          <option value="6">6</option>
-          <option value="7">7</option>
-          <option value="8">8</option>
-          <option value="9">9</option>
-          <option value="10">10</option>
-        </select>
-      </td>
-      <td class="vas-cell">
-        <select class="vas-select">
-          <option value=""></option>
-          <option value="0">0</option>
-          <option value="1">1</option>
-          <option value="2">2</option>
-          <option value="3">3</option>
-          <option value="4">4</option>
-          <option value="5">5</option>
-          <option value="6">6</option>
-          <option value="7">7</option>
-          <option value="8">8</option>
-          <option value="9">9</option>
-          <option value="10">10</option>
-        </select>
-      </td>
-      <td class="vas-cell">
-        <select class="vas-select">
-          <option value=""></option>
-          <option value="0">0</option>
-          <option value="1">1</option>
-          <option value="2">2</option>
-          <option value="3">3</option>
-          <option value="4">4</option>
-          <option value="5">5</option>
-          <option value="6">6</option>
-          <option value="7">7</option>
-          <option value="8">8</option>
-          <option value="9">9</option>
-          <option value="10">10</option>
-        </select>
-      </td>
-      <td class="vas-cell">
-        <select class="vas-select">
-          <option value=""></option>
-          <option value="0">0</option>
-          <option value="1">1</option>
-          <option value="2">2</option>
-          <option value="3">3</option>
-          <option value="4">4</option>
-          <option value="5">5</option>
-          <option value="6">6</option>
-          <option value="7">7</option>
-          <option value="8">8</option>
-          <option value="9">9</option>
-          <option value="10">10</option>
-        </select>
-      </td>
-      <td class="vas-cell">
-        <select class="vas-select">
-          <option value=""></option>
-          <option value="0">0</option>
-          <option value="1">1</option>
-          <option value="2">2</option>
-          <option value="3">3</option>
-          <option value="4">4</option>
-          <option value="5">5</option>
-          <option value="6">6</option>
-          <option value="7">7</option>
-          <option value="8">8</option>
-          <option value="9">9</option>
-          <option value="10">10</option>
-        </select>
-      </td>
-      <td class="vas-cell">
-        <select class="vas-select">
-          <option value=""></option>
-          <option value="0">0</option>
-          <option value="1">1</option>
-          <option value="2">2</option>
-          <option value="3">3</option>
-          <option value="4">4</option>
-          <option value="5">5</option>
-          <option value="6">6</option>
-          <option value="7">7</option>
-          <option value="8">8</option>
-          <option value="9">9</option>
-          <option value="10">10</option>
-        </select>
-      </td>
+      <td class="vas-cell"><input class="vas-input" type="text" maxlength="2"/></td>
+      <td class="vas-cell"><input class="vas-input" type="text" maxlength="2"/></td>
+      <td class="vas-cell"><input class="vas-input" type="text" maxlength="2"/></td>
+      <td class="vas-cell"><input class="vas-input" type="text" maxlength="2"/></td>
+
+      <td class="vas-cell"><input class="vas-input" type="text" maxlength="2"/></td>
+      <td class="vas-cell"><input class="vas-input" type="text" maxlength="2"/></td>
+      <td class="vas-cell"><input class="vas-input" type="text" maxlength="2"/></td>
+      <td class="vas-cell"><input class="vas-input" type="text" maxlength="2"/></td>
 </template>
 
 <script>
@@ -137,10 +18,14 @@ export default {
 
 <style>
 .vas-cell {
-    width: (50/4)px;
+  border: 1px solid black;
+  border-top: 0px;
+  overflow: hidden;
+  width: (105/4)px;
 }
 
-.vas-select {
-  width: 33px;
+.vas-input {
+  display: block;
+  width: 20px;
 }
 </style>

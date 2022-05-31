@@ -1,6 +1,6 @@
 <template>
   <table class="sign-table">
-      <td class="sign-title"><div class="rotate">{{title}}</div></td>
+      <td class="sign-title"><div class="sign-rotate">{{title}}</div></td>
 
       <td></td>
       <td></td>
@@ -42,7 +42,7 @@ export default {
   border: 1px solid black;
 }
 
-.rotate {
+.sign-rotate {
   -webkit-transform: rotate(-90deg);
   transform: rotate(-90deg);
   -moz-transform: rotate(-90deg);

@@ -1,6 +1,6 @@
 <template>
   <table class="assistant">
-      <td class="assistant-title"><div class="rotate">Ordinace lékaře</div></td>
+      <td class="assistant-title"><div class="assistant-rotate">Ordinace lékaře</div></td>
 
         <AssistantComp/>
         <AssistantComp/>
@@ -33,19 +33,19 @@ export default {
 }
 
 .assistant-title{
-  text-align: center;
   width: 50px;
   height: 80px;
   border: 1px solid black;
 }
 
-.rotate {
+.assistant-rotate {
   -webkit-transform: rotate(-90deg);
   transform: rotate(-90deg);
   -moz-transform: rotate(-90deg);
+  padding-right: 120px;
+  padding-bottom: 100px;
   width: 100px;
-  height: 100px;
-  margin-left: 30px;
+  height: 50px;
 }
 
 </style>

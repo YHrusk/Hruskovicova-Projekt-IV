@@ -54,6 +54,5 @@ export default {
 .sign-table td {
   border: 1px solid black;
   border-top: 0px;
-  width: 105px
 }
 </style>

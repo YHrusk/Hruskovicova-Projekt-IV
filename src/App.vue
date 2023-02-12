@@ -8,6 +8,9 @@ import VASTable from "./components/VASTable.vue";
 import ContraTable from "./components/ContraTable.vue";
 import AssistantTable from "./components/AssistantTable.vue";
 import SignComp from "./components/SignComp.vue";
+import RecordTable from "./components/RecordTable.vue";
+import RotationProcess from "./components/RotationProcess.vue";
+import BirthProcess from "./components/BirthProcess.vue";
 
 export default {
   name: 'App',
@@ -20,7 +23,10 @@ export default {
     VASTable,
     ContraTable,
     AssistantTable,
-    SignComp
+    SignComp,
+    RecordTable,
+    RotationProcess,
+    BirthProcess
   }
 }
 </script>
@@ -30,11 +36,14 @@ export default {
   <TableTop/>
   <TextAreaComp/>
   <HoursTable/>
+  <RecordTable/>
   <MarkComp title="Močení"/>
   <MarkComp title="Strava"/>
   <ContraTable/>
   <VASTable/>
   <AssistantTable/>
+  <RotationProcess/>
+  <BirthProcess/>
   <SignComp title="Jmenovka + podpis lékaře"/>
   <SignComp title="Jmenovka + podpis sestry/PA"/>
 </template>

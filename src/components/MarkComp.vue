@@ -85,7 +85,7 @@ export default {
 }
 
 .mark-title{
-  width: 105px;
+  width: 107px;
   border: 1px solid black;
   border-top: 0px;
   padding: 10px;

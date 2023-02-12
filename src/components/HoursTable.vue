@@ -92,7 +92,7 @@ export default {
 
 .hour-title {
   border: 1px solid black;
-  width: 105px;
+  width: 110px;
   padding: 10px;
   text-align: left;
 }

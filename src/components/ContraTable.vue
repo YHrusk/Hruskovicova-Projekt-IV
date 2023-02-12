@@ -36,7 +36,7 @@ export default {
 
 .con-title{
   border: 1px solid black;
-  width: 105px;
+  width: 107px;
   padding: 10px;
   text-align: left;
   border-top: 0px;

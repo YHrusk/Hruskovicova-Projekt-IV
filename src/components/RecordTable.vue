@@ -114,205 +114,159 @@
     <div class="wrapper-record">
 
         <ResizableComp
-        :parentW="Pwidth"
-        :parentH="Pheight"
-        :parentLimitation="true"
         :minw="25"
         :minh="25"
         :w="50"
         :h="100"
+        :x="-90"
+        :y="-173"
         >
           <img src="../assets/arrow.png" class="image-record">
         </ResizableComp>
         <ResizableComp
-        :parentW="Pwidth"
-        :parentH="Pheight"
-        :parentLimitation="true"
         :minw="25"
         :minh="25"
         :w="50"
         :h="100"
+        :x="-90"
+        :y="-173"
         >
           <img src="../assets/arrow.png" class="image-record">
         </ResizableComp>
         <ResizableComp
-        :parentW="Pwidth"
-        :parentH="Pheight"
-        :parentLimitation="true"
         :minw="25"
         :minh="25"
         :w="50"
         :h="100"
+        :x="-90"
+        :y="-173"
         >
           <img src="../assets/arrow.png" class="image-record">
         </ResizableComp>
         <ResizableComp
-        :parentW="Pwidth"
-        :parentH="Pheight"
-        :parentLimitation="true"
         :minw="25"
         :minh="25"
         :w="50"
         :h="100"
+        :x="-90"
+        :y="-173"
+        >
+          <img src="../assets/arrow.png" class="image-record">
+        </ResizableComp>
+        <ResizableComp
+        :minw="25"
+        :minh="25"
+        :w="50"
+        :h="100"
+        :x="-90"
+        :y="-173"
         >
           <img src="../assets/arrow.png" class="image-record">
         </ResizableComp>
 
         <ResizableComp
-        :parentW="Pwidth"
-        :parentH="Pheight"
-        :parentLimitation="true"
         :minw="25"
         :minh="25"
         :w="100"
         :h="50"
+        :x="20"
+        :y="-145"
         >
           <img src="../assets/line.png" class="image-record">
         </ResizableComp>
         <ResizableComp
-        :parentW="Pwidth"
-        :parentH="Pheight"
-        :parentLimitation="true"
         :minw="25"
         :minh="25"
         :w="100"
         :h="50"
+        :x="20"
+        :y="-145"
         >
           <img src="../assets/line.png" class="image-record">
         </ResizableComp>
         <ResizableComp
-        :parentW="Pwidth"
-        :parentH="Pheight"
-        :parentLimitation="true"
         :minw="25"
         :minh="25"
         :w="100"
         :h="50"
+        :x="20"
+        :y="-145"
         >
           <img src="../assets/line.png" class="image-record">
         </ResizableComp>
         <ResizableComp
-        :parentW="Pwidth"
-        :parentH="Pheight"
-        :parentLimitation="true"
         :minw="25"
         :minh="25"
         :w="100"
         :h="50"
+        :x="20"
+        :y="-145"
+        >
+          <img src="../assets/line.png" class="image-record">
+        </ResizableComp>
+        <ResizableComp
+        :minw="25"
+        :minh="25"
+        :w="100"
+        :h="50"
+        :x="20"
+        :y="-145"
         >
           <img src="../assets/line.png" class="image-record">
         </ResizableComp>
 
         <ResizableComp
-        :parentW="Pwidth"
-        :parentH="Pheight"
-        :parentLimitation="true"
         :minw="25"
         :minh="25"
-        :w="40"
-        :h="40"
+        :w="50"
+        :h="50"
+        :x="180"
+        :y="-145"
         >
           <img src="../assets/x.png" class="image-record">
         </ResizableComp>
         <ResizableComp
-        :parentW="Pwidth"
-        :parentH="Pheight"
-        :parentLimitation="true"
         :minw="25"
         :minh="25"
-        :w="40"
-        :h="40"
+        :w="50"
+        :h="50"
+        :x="180"
+        :y="-145"
         >
           <img src="../assets/x.png" class="image-record">
         </ResizableComp>
         <ResizableComp
-        :parentW="Pwidth"
-        :parentH="Pheight"
-        :parentLimitation="true"
         :minw="25"
         :minh="25"
-        :w="40"
-        :h="40"
+        :w="50"
+        :h="50"
+        :x="180"
+        :y="-145"
         >
           <img src="../assets/x.png" class="image-record">
         </ResizableComp>
         <ResizableComp
-        :parentW="Pwidth"
-        :parentH="Pheight"
-        :parentLimitation="true"
         :minw="25"
         :minh="25"
-        :w="40"
-        :h="40"
+        :w="50"
+        :h="50"
+        :x="180"
+        :y="-145"
         >
           <img src="../assets/x.png" class="image-record">
         </ResizableComp>
         <ResizableComp
-        :parentW="Pwidth"
-        :parentH="Pheight"
-        :parentLimitation="true"
         :minw="25"
         :minh="25"
-        :w="40"
-        :h="40"
+        :w="50"
+        :h="50"
+        :x="180"
+        :y="-145"
         >
           <img src="../assets/x.png" class="image-record">
         </ResizableComp>
-        <ResizableComp
-        :parentW="Pwidth"
-        :parentH="Pheight"
-        :parentLimitation="true"
-        :minw="25"
-        :minh="25"
-        :w="40"
-        :h="40"
-        >
-          <img src="../assets/x.png" class="image-record">
-        </ResizableComp>
-        <ResizableComp
-        :parentW="Pwidth"
-        :parentH="Pheight"
-        :parentLimitation="true"
-        :minw="25"
-        :minh="25"
-        :w="40"
-        :h="40"
-        >
-          <img src="../assets/x.png" class="image-record">
-        </ResizableComp>
-        <ResizableComp
-        :parentW="Pwidth"
-        :parentH="Pheight"
-        :parentLimitation="true"
-        :minw="25"
-        :minh="25"
-        :w="40"
-        :h="40"
-        >
-          <img src="../assets/x.png" class="image-record">
-        </ResizableComp>
-        <ResizableComp
-        :parentW="Pwidth"
-        :parentH="Pheight"
-        :parentLimitation="true"
-        :minw="25"
-        :minh="25"
-        :w="40"
-        :h="40"
-        >
-          <img src="../assets/x.png" class="image-record">
-        </ResizableComp>
-        <ResizableComp
-        :parentW="Pwidth"
-        :parentH="Pheight"
-        :parentLimitation="true"
-        :minw="25"
-        :minh="25"
-        :w="40"
-        :h="40"
-        >
-          <img src="../assets/x.png" class="image-record">
-        </ResizableComp>
+
+
     </div>
 
 </div>

@@ -12,7 +12,6 @@ import RecordTable from "./components/RecordTable.vue";
 import RotationProcess from "./components/RotationProcess.vue";
 import BirthProcess from "./components/BirthProcess.vue";
 import SymbolArea from "./components/SymbolArea.vue";
-import html2pdf from "./components/html2pdf.vue";
 
 export default {
   name: 'App',
@@ -29,23 +28,12 @@ export default {
     RecordTable,
     RotationProcess,
     BirthProcess,
-    SymbolArea,
-  },
-  methods: {
-    exportToPDF() {
-			html2pdf(document.getElementById('element-to-convert'), {
-        filename: "porodni_krivka.pdf",
-        image: { type: 'jpeg', quality: 1 },
-        jsPDF: {unit: "px", orientation: "l", hotfixes: "px-scaling", format: [1920, 1080]},
-      });
-		}
+    SymbolArea
   }
 }
 </script>
 
 <template>
-  <div id="app" ref="document">
-  <div id="element-to-convert">
     <HeaderComp/>
     <TableTop/>
     <TextAreaComp/>
@@ -61,9 +49,6 @@ export default {
     <BirthProcess/>
     <SignComp title="Jmenovka + podpis lékaře"/>
     <SignComp title="Jmenovka + podpis sestry/PA"/>
-  </div>
-    <button @click="exportToPDF">Generovat PDF</button>
-  </div>
 </template>
 
 <style>

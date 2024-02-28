@@ -118,8 +118,8 @@
         :minh="25"
         :w="50"
         :h="100"
-        :x="-90"
-        :y="-173"
+        :x="-100"
+        :y="-175"
         >
           <img src="../assets/arrow.png" class="image-record">
         </ResizableComp>
@@ -128,8 +128,8 @@
         :minh="25"
         :w="50"
         :h="100"
-        :x="-90"
-        :y="-173"
+        :x="-100"
+        :y="-175"
         >
           <img src="../assets/arrow.png" class="image-record">
         </ResizableComp>
@@ -138,8 +138,8 @@
         :minh="25"
         :w="50"
         :h="100"
-        :x="-90"
-        :y="-173"
+        :x="-100"
+        :y="-175"
         >
           <img src="../assets/arrow.png" class="image-record">
         </ResizableComp>
@@ -148,8 +148,8 @@
         :minh="25"
         :w="50"
         :h="100"
-        :x="-90"
-        :y="-173"
+        :x="-100"
+        :y="-175"
         >
           <img src="../assets/arrow.png" class="image-record">
         </ResizableComp>
@@ -158,8 +158,8 @@
         :minh="25"
         :w="50"
         :h="100"
-        :x="-90"
-        :y="-173"
+        :x="-100"
+        :y="-175"
         >
           <img src="../assets/arrow.png" class="image-record">
         </ResizableComp>
@@ -169,7 +169,7 @@
         :minh="25"
         :w="100"
         :h="50"
-        :x="20"
+        :x="10"
         :y="-145"
         >
           <img src="../assets/line.png" class="image-record">
@@ -179,7 +179,7 @@
         :minh="25"
         :w="100"
         :h="50"
-        :x="20"
+        :x="10"
         :y="-145"
         >
           <img src="../assets/line.png" class="image-record">
@@ -189,7 +189,7 @@
         :minh="25"
         :w="100"
         :h="50"
-        :x="20"
+        :x="10"
         :y="-145"
         >
           <img src="../assets/line.png" class="image-record">
@@ -199,7 +199,7 @@
         :minh="25"
         :w="100"
         :h="50"
-        :x="20"
+        :x="10"
         :y="-145"
         >
           <img src="../assets/line.png" class="image-record">
@@ -209,7 +209,7 @@
         :minh="25"
         :w="100"
         :h="50"
-        :x="20"
+        :x="10"
         :y="-145"
         >
           <img src="../assets/line.png" class="image-record">
@@ -339,7 +339,7 @@ export default {
 
 .wrapper-record {
   height: 300px;
-  width: 1755px;
+  width: 1750px;
   border: 1px solid #000;
   position: relative;
   float: left;

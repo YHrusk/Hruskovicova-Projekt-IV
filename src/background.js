@@ -19,10 +19,16 @@ async function createWindow() {
       // See nklayman.github.io/vue-cli-plugin-electron-builder/guide/security.html#node-integration for more info
       nodeIntegration: process.env.ELECTRON_NODE_INTEGRATION,
       contextIsolation: !process.env.ELECTRON_NODE_INTEGRATION
-    }
+    },
+    width: 1920,
+    height: 1080,
+    maxWidth: 1920,
+    maxHeight: 1080,
+    setAspectRatio: (16/9),
+    resizable: false,
   })
 
-  win.maximize();
+  //win.maximize();
 
   if (process.env.WEBPACK_DEV_SERVER_URL) {
     // Load the url of the dev server if in development mode

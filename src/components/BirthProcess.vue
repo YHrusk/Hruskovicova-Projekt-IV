@@ -96,7 +96,7 @@ export default {
 
 .wrapper-birth {
   height: 300px;
-  width: 1755px;
+  width: 1750px;
   border: 1px solid #000;
   position: relative;
   float: left;

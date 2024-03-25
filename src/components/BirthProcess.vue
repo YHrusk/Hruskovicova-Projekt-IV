@@ -1,6 +1,7 @@
 <template>
-  <div class="cont">
+  <div class="cont-birth">
 
+<div class="parent-birth">
   <div class="table-start">
       <td class="rotation-title"><div class="rotation-rotate">Průběh porodu</div></td>
   </div>
@@ -21,6 +22,7 @@
       </tr>
     </table>
   </div>
+</div>
 
     <div class="wrapper-birth">
 
@@ -89,6 +91,16 @@ export default {
 </script>
 
 <style>
+.cont-birth {
+  width: 100%;
+}
+
+.parent-birth {
+  width: 130px;
+  height: 300px;
+  float: left;
+}
+
 .image-record {
   width: 100%;
   height: 100%;
@@ -96,7 +108,7 @@ export default {
 
 .wrapper-birth {
   height: 300px;
-  width: 1750px;
+  width: 1749px;
   border: 1px solid #000;
   position: relative;
   float: left;

@@ -1,29 +1,31 @@
 <template>
-<div class="cont">
+<div class="cont-rot">
 
-  <div class="table-start">
-      <td class="rotation-title"><div class="rotation-rotate">Postup rotace</div></td>
-  </div>
+    <div class="parent-rot">
+      <div class="table-start">
+          <td class="rotation-title"><div class="rotation-rotate">Postup rotace</div></td>
+      </div>
 
-  <div class="table-next">
-    <table class="next-table">
-      <tr class="next-cell">
-        <td>čípek 1</td>
-      </tr>
-      <tr class="next-cell">
-        <td>2</td>
-      </tr>
-      <tr class="next-cell">
-        <td>3</td>
-      </tr>
-      <tr class="next-cell">
-        <td>6</td>
-      </tr>
-      <tr class="next-cell">
-        <td>8</td>
-      </tr>
-    </table>
-  </div>
+      <div class="table-next">
+        <table class="next-table">
+          <tr class="next-cell">
+            <td>čípek 1</td>
+          </tr>
+          <tr class="next-cell">
+            <td>2</td>
+          </tr>
+          <tr class="next-cell">
+            <td>3</td>
+          </tr>
+          <tr class="next-cell">
+            <td>6</td>
+          </tr>
+          <tr class="next-cell">
+            <td>8</td>
+          </tr>
+        </table>
+      </div>
+    </div>
 
     <div class="wrapper-rotation">
 
@@ -105,8 +107,14 @@ export default {
 </script>
 
 <style>
-.cont {
+.cont-rot {
   width: 100%;
+}
+
+.parent-rot {
+  width: 130px;
+  height: 300px;
+  float: left;
 }
 
 .table-start {
@@ -152,7 +160,7 @@ export default {
 
 .wrapper-rotation {
   height: 300px;
-  width: 1750px;
+  width: 1749px;
   border: 1px solid #000;
   position: relative;
   float: left;
